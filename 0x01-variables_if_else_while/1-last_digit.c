@@ -28,7 +28,8 @@ int main(void)
 	}
 	else
 	{
-		print("Last digit 0f %d is %d and is less than  and not 0\n", n, a);
+	printf("Last digit 0f %d is %d and is less than  and not 0\n", n, a);
+	}
 	/* your code goes there */
 	return (0);
 }
