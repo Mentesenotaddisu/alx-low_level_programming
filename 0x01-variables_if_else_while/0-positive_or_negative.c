@@ -26,5 +26,5 @@ int main(void)
 	printf("is zero")
 	}
 	/* your code goes there */
-	return (0);
+	return (1);
 }
