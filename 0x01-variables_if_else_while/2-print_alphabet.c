@@ -7,9 +7,14 @@
 int main(void)
 {
 	int x;
-	for(x = 'A'; x <= 'Z'; x++)
+
+	for (x = 'A'; x <= 'Z'; x++)
 	{
-	putchar(tolower(x));
+
+	int lo_x = tolower(x);
+
+	putchar(lo_x);
+
 	}
 	return (0);
 }
