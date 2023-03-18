@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	for (let x = 'A'; x <= 'Z'; X++)
+	for(let x = 'A'; x <= 'Z'; x++)
 	{
 	putchar(tolower(x));
 	}
