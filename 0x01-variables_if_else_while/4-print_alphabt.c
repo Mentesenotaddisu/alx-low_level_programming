@@ -9,7 +9,7 @@ int main(void)
 {
 	int x;
 
-	for (x = 'A'; x < 'E'; x < 'Q'; x <= 'Z'; x++)
+	for (x = 'A'; x < 'E'; x <= 'Z'; x++)
 	{
 	putchar(tolower(x));
 	}
