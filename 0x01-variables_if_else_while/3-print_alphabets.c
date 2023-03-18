@@ -15,9 +15,9 @@ int main(void)
 	}
 	for (x = 'A'; x <= 'Z'; x++)
 	{
-	putchat(x);
+	putchar(x);
 	}
-	putchat('\n');
+	putchar('\n');
 	return (0);
 
 }
