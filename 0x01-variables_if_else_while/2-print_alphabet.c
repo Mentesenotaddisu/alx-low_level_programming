@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <ctype.h>
 /**
  * main - entry
  * Return: Always 0
@@ -10,11 +11,7 @@ int main(void)
 
 	for (x = 'A'; x <= 'Z'; x++)
 	{
-
-	int lo_x = tolower(x);
-
-	putchar(lo_x);
-
+	putchar(tolower(x));
 	}
 	return (0);
 }
