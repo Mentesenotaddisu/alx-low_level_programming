@@ -9,7 +9,11 @@ int main(void)
 {
 	 int x;
 
-	for (x = '0'; x <= '15'; x++)
+	 int y;
+
+
+	for (x = '0'; x <= '9'; x++)
+	for (y = 'a'; y <= 'f'; y++)
 	{
 	putchar(x);
 	}
