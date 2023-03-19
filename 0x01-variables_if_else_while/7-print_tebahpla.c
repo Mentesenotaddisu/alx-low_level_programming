@@ -11,6 +11,7 @@ int main(void)
 
 	for (x = 'Z'; x <= 'A'; x++)
 	{
+	if (x >= 'A')
 	putchar(tolower(x));
 	}
 	putchar('\n');
