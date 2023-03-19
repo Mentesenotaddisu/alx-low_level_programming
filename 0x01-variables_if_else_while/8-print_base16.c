@@ -13,9 +13,11 @@ int main(void)
 
 
 	for (x = '0'; x <= '9'; x++)
-	for (y = 'a'; y <= 'f'; y++)
 	{
 	putchar(x);
+	}
+	for (y = 'a'; y <= 'f'; y++)
+	{
 	putchar(y);
 	}
 	putchar('\n');
