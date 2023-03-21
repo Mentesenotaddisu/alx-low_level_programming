@@ -5,9 +5,12 @@
  * Return: Always 0
  *
  */
-int main(void)
+main(void)
 {
-	putchar("_putchar");
+	int i;
+
+	i = "_putchar"
+	putchar(i);
 	return (0);
 }
 
