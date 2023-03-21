@@ -3,20 +3,17 @@
 /**
  * _islower -  entry
  *
+ * @c: Check
+ *
  * Return: Always 0
  */
 
-int _islower(int )
+int _islower(int c)
 {
-	int x;
 
-	for (x != _islower)
+	if (c >= 97 & <= 122)
 	{
-	_putchar(0);
-	}
-	for (x != _isupper)
-	{
-	_putchar(1);
+	return (1);
 	}
 	return (0);
 }
