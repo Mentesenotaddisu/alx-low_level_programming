@@ -1,4 +1,5 @@
 #include "main.h"
+#include <ctype.h>
 
 /**
 * main - entry
@@ -9,7 +10,7 @@ int main(void)
 {
 	int x;
 
-	for (x = "a"; x <= "z"; x++)
+	for (x = 'a'; x <= 'z'; x++)
 	{
 	putchar(x);
 	}
