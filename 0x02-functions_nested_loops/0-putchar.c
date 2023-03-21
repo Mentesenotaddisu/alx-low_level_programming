@@ -9,7 +9,7 @@ int main(void)
 {
 	int i;
 
-	i = 2
+	i = 2;
 	putchar(i);
 	return (0);
 }
