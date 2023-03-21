@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>
-#include "main.h"
 /**
  * main - entry
  * Return: Always 0
