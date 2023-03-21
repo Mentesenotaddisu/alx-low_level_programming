@@ -5,11 +5,11 @@
  * Return: Always 0
  *
  */
-main(void)
+int main(void)
 {
 	int i;
 
-	i = "_putchar"
+	i = 2
 	putchar(i);
 	return (0);
 }
