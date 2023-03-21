@@ -1,20 +1,18 @@
 #include "main.h"
-#include <ctype.h>
 
 /**
 * main - entry
 *
 * Return: Always 0.
 */
-int main(void)
+void print_alphabet(void)
 {
-	int x;
+	char x;
 
 	for (x = 'a'; x <= 'z'; x++)
 	{
-	putchar(x);
+	_putchar(x);
 	}
-	putchar('\n');
-	return (0);
+	_putchar('\n');
 
 }
