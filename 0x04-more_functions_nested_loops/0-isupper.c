@@ -2,14 +2,13 @@
 #include "main.h"
 
 /**
- * main- entry
+ * _isupper- entry
  * Return: Always 0
+ * @c: check
  */
 
-int main(void)
+int _isupper(int c);
 {
-	int c;
-
 	if (c >= 65 && c <= 97)
 	{
 	return (1);
