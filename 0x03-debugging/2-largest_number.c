@@ -16,22 +16,24 @@ int largest_number(int a, int b, int c)
 	b = -98;
 	c = 0;
 
-	if (a > b && a > c)
+	if (a > b && b > c)
 	{
 	largest = a;
-	printf("%d is largest \n", largest);
 	}
-	else if (b > a && b > c)
+	else if (a > c && c > b)
+		largest = a;
+	else if (b > a && a > c)
 	{
 	largest = b;
-	printf("%d is largest \n", largest);
 	}
+	else if (b > c && c > a)
+	largest = b;
+	else if (c > a && a > b)
+	largest = c;
 	else
 	{
 	largest = c;
-	printf("%d is largest \n", largest);
-	}
-
+        }
 	return (largest);
 
 }
