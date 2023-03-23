@@ -2,16 +2,17 @@
 #include "main.h"
 
 /**
- * _isupper- entry
+ * main- entry
  * Return: Always 0
- * @c: is char
  */
 
-int _isupper(int c)
+int main(void)
 {
-	if
+	char c;
+
+	if 
 	{
-	_isupper(c);
+	c == _isupper(C);
 	return (1);
 	}
 	else
