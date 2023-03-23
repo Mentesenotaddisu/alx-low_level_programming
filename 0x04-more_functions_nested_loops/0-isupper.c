@@ -8,15 +8,11 @@
 
 int main(void)
 {
-	char c;
+	int c;
 
-	if 
-	{
-	c == _isupper(C);
-	return (1);
-	}
+	if (c >= 65 && c <= 97)
+		return (1);
 	else
-	
-	return (0);
-	
+		return (0);
+
 }
