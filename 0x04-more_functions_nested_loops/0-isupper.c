@@ -1,10 +1,10 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
- * _isupper- entry
- * Return: Always 0
+ * _isupper - entry
+ *
  * @c: check
+ * Return: 1 for upper or 0 for else
  */
 
 int _isupper(int c);
