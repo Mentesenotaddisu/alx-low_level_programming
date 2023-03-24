@@ -3,13 +3,13 @@
 /**
 * _isupper - entry
 *
-* @c: check
+* @a: check
 * Return: 1 for upper or 0 for else
 */
 
-int _isupper(int c)
+int _isupper(int a)
 {
-	if (c >= 65 && c <= 98)
+	if (a >= 65 && a <= 98)
 	{
 	return (1);
 	}
