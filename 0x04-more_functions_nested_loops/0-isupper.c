@@ -3,7 +3,7 @@
 /**
 * _isupper - entry
 *
-* @x: check
+* @c: check
 * Return: 1 for upper or 0 for else
 */
 
