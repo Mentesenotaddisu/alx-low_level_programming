@@ -10,15 +10,27 @@ int main(void)
 
 	for (x = 1 ; x <= 100; x++)
 	{
-		if(x * 5)
+		if((x % 3 ==0) && (x % 5 == 0))
 		{
-		_putchar("Buzz");
+		_putchar("FizzBuzz");
 		}
-		else if (x * 3)
+		else if (x % 3 == 0)
 		{
 		_putchar("Fizz");
 		}
-	_putchar(x);
-	_putchar(' ');
+		else if (x % 5 == 0)
+		{
+		_putchar("Buzz");
+		}
+		else
+		{
+		_putchar("%d",x);
+		}
+		if (x != 100)
+		{
+		_putchar(' ');
+		}
 	}
+	_putchar('\n');
+	return (0);
 }
