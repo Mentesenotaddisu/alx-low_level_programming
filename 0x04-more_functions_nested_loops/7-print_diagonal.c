@@ -3,7 +3,7 @@
 /**
  * print_diagonal - entry
  *@n: daigonal
- *Return: Alwasy 0
+ *Return: empty
  */
 
 void print_diagonal(int n)
@@ -12,13 +12,13 @@ void print_diagonal(int n)
 
 	if (n <= 0)
 	{
-	_putchar('\n')'
+	_putchar('\n')
 	}
 	else
 	{
-	for (x = 0; x <= n; x++)
+	for (x = 0; x < n; x++)
 	{
-	for (y = 0; y <= x; y++)
+	for (y = 0; y < x; y++)
 	{
 	_putchar(32);
 	}
