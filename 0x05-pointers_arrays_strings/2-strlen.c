@@ -3,8 +3,7 @@
 #include <string.h>
 
 /**
- * _strlen - entry
- *@str: int
+ * main - entry
  *Return :Always 0
  */
 int main(void)
