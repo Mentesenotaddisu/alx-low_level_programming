@@ -1,17 +1,16 @@
 #include <stdio.h>
-#include "main.h"
-#include <string.h>
 
 /**
- * main - entry
- *Return :Always 0
+ * _strlen - main
+ * @str: check
+ * Return: str
  */
-int main(void)
+size_t _strlen(const char *str)
 {
-	char str1[12] = "Hello";
-	int  len;
+	size_t length = 0;
 
-	len = strlen(str1);
-	_putchar("strlen(str1) :  %d\n", len );
-	return (0);
+	while (*str++)
+	length++;
+	return (length);
+
 }
