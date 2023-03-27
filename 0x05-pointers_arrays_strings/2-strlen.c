@@ -4,11 +4,14 @@
 /**
  * _strlen - entry
  *@s: int
- *Return: Always 0
+ *Return: strlen
  */
 
 int _strlen(char *s)
 {
-	_strlen(*s);
-	return (0);
+	size_t length = 0;
+
+	while (*str++)
+	length++;
+	return (length);
 
