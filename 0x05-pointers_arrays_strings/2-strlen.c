@@ -5,14 +5,13 @@
 /**
  * _strlen - entry
  *@str: int
- *Return: strlen
+ *Return :Always 0
  */
-
-size_t _strlen(const char *str)
+int main(void)
 {
-	size_t length = 0;
+	char str1[12] = "Hello";
+	int  len;
+	len = strlen(str1);
+	_putchar("strlen(str1) :  %d\n", len );
 
-	while (*str++)
-	length++;
-	return (length);
 }
