@@ -3,7 +3,7 @@
 
 /**
  * _strlen - entry
- *@s: int
+ *@str: int
  *Return: strlen
  */
 
