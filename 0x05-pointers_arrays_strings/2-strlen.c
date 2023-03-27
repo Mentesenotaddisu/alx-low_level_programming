@@ -3,15 +3,14 @@
 
 /**
  * _strlen - entry
- *@str: int
+ *@s: int
  *Return: strlen
  */
 
-size_t _strlen(const char *str)
+int _strlen(char *s)
 {
-	size_t length = 0;
+	int len;
 
-	while (*str++)
-	length++;
-	return (length);
+	len = strlen(*s);
+	return (len);
 }
