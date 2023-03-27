@@ -7,7 +7,7 @@
  *Return: strlen
  */
 
-int _strlen(char *s)
+size_t _strlen(char *s)
 {
 	size_t length = 0;
 
