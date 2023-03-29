@@ -1,14 +1,29 @@
 #include "main.h"
 
 /**
- * *_strcat - entry
+ * _strcat - entry
  * @dest: char 1
- * @src: cahe 2
- * Return: to char 1
+ * @str:char 2
+ * Return: Always 0
  */
+
 char *_strcat(char *dest, char *src)
 {
-	strcat(*dest, *src);
-	_putchar("strcat(*dest, *src): %s\n", *dest);
-	return (0);
+	int x;
+	int y;
+
+	x = 0;
+	while (dest[x] != '\0';)
+			{
+		x++;
+		}
+		y = 0;
+	while (str[y] != '\0';)
+		{
+		x++;
+		y++;
+		}
+	dest[x] = '\0';
+		return (dest);
 }
+
