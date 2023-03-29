@@ -12,7 +12,7 @@ char *_strncat(char *dest, char *src, int n)
 	int srclen = 0;
 	int x;
 
-	for (x = 0 ; dest[x] != '\0'; x++ )
+	for (x = 0 ; dest[x] != '\0'; x++)
 		destlen++;
 	for (x = 0; src[x] != '\0' ; x++)
 		srclen++;
