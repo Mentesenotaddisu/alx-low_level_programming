@@ -2,28 +2,22 @@
 
 /**
  * _strcat - entry
- * @dest: char 1
- * @str:char 2
- * Return: Always 0
+ * @dest: 1
+ * @src: 2
+ * Return: dest
  */
-
 char *_strcat(char *dest, char *src)
 {
-	int x;
-	int y;
-
-	x = 0;
-	while (dest[x] != '\0';)
-			{
-		x++;
-		}
-		y = 0;
-	while (src[y] != '\0';)
-		{
-		x++;
-		y++;
-		}
-	dest[x] = '\0';
-		return (dest);
+	int destlen = 0;
+	int srclen = 0;
+	int i;
+	
+	for (i = 0; dest[i] != '\0' ; i++)
+		destlen++;
+	for (i = 0; src[i] != '\0' ; i++)
+		srclen++;
+	for (i = 0; i <= srclen ; i++)
+		dest[destlen + i] = src[i];
+	return (dest)
 }
 
