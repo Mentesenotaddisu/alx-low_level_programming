@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * rot13 - entry
+ * rot13 - encode rot13
  * @n: int
- * Return : n
+ * Return : *n
  */
 char *rot13(char *n)
 {
@@ -18,7 +18,7 @@ char *rot13(char *n)
 	if (n[i] == s1[j])
 	{
 	n[i] = s2[j];
-
+	break;
 	}
 	}
 	}
