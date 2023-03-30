@@ -1,13 +1,13 @@
 #include "main.h"
 /**
  * _strcmp - entry
- * @s2: 1
- * @s1:2
+ * @s1: 1
+ * @s21:2
  * Return: strcmp
  */
 int _strcmp(char *s1, char *s2)
 {
-	int i:
+	int i;
 
 	i = 0;
 	while (s1[i] != '\0' && s2[i] != '\0')
