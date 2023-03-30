@@ -5,6 +5,7 @@
  * @n: int
  * Return : *n
  */
+
 char *rot13(char *n)
 {
 	int i, j;
