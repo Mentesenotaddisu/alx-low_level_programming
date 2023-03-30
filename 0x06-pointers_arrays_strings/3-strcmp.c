@@ -2,7 +2,7 @@
 /**
  * _strcmp - entry
  * @s1: 1
- * @s21:2
+ * @s2:2
  * Return: strcmp
  */
 int _strcmp(char *s1, char *s2)
