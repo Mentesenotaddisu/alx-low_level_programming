@@ -3,7 +3,7 @@
  *_strspn -  entry
  *@s: int
  *@accept: accept
- *return: 0
+ *Return: 0
  */
 unsigned int _strspn(char *s, char *accept)
 {
