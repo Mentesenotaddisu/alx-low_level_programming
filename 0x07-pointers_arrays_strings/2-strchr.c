@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  *_strchr - entry
  *@s: string
@@ -12,7 +13,6 @@ char *_strchr(char *s, char c)
 	for (x = 0; s[x] >= '\0'; x++)
 	{
 	if (s[x] == c)
-
 		return (s + i);
 	}
 	return (NULL);
