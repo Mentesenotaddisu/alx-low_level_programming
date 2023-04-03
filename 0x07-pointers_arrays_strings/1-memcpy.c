@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- *_memcpy - entry 
+ *_memcpy - entry
  *@dest: change
  *@src: change
  *@n: byte
- *return: dest
+ *Return: dest
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
