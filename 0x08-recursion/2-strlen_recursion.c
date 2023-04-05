@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- *_strlen_recursion - entry
+ * _strlen_recursion - entry
  *
  *@s: string
  *
- *Return :string
+ *Return: string
  */
 int _strlen_recursion(char *s)
 {
