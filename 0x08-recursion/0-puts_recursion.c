@@ -7,12 +7,10 @@
  */
 void _puts_recursion(char *s)
 {
-	_putchar(_puts_recursion(*s));
-			return;
 
 }
 int main(void)
 {
-	_puts_recursion("hello");
+	_putchar("%s", _puts_recursion(*s));
 	return (0);
 }
