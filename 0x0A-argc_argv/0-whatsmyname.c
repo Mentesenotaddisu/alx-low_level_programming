@@ -14,7 +14,7 @@ int main(char argc, char* argv)
 	
 		for (i = 0; i <= argc; i++)
 		{
-		_putchar("%s\n", i== argc);
+		_putchar("%s\n", i== argv[i]);
 		}	
 		return (0);
 }
