@@ -7,14 +7,8 @@
  * @argv: char p
  * Return: 0
  */
-int main(char argc, char* argv)
+int main(char argc, char *argv[])
 {
-	char i ;
-	
-	
-		for (i = 0; i <= argc; i++)
-		{
-		_putchar("%s\n", argv[0]);
-		}	
+		_putchar("%s\n", argv[0]);	
 		return (0);
 }
