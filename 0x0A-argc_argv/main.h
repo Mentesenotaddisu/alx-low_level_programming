@@ -1,2 +1,1 @@
-int _putchar(char c);
-int _atoi(char *str);
+int main(int argc, char *argv[]);
