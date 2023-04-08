@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 /**
  *main- entry
  *@argc: char
@@ -16,7 +17,7 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 
-	cents = atoi(argcv[1]);
+	cents = atoi(argv[1]);
 
 	while (cents > 0)
 	{
@@ -35,7 +36,7 @@ int main(int argc, char *argv[])
 	{
 	cents -= 5;
 	continue;
-	}
+	}	
 		if ((cents - 2) >= 0)
 	{
 	cents -= 2;
