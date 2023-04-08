@@ -1,10 +1,10 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *
- *
- *
- *
+ *main- entry
+ *@argc: char
+ *@argv: char
+ *return: 0
  */
 int main(int argc, char *argv[])
 {
@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 	if (argc != 2)
 	{
 		printf("Error\n");
-		return(1);
+		return (1);
 	}
 
 	cents = atoi(argcv[1]);
@@ -32,15 +32,15 @@ int main(int argc, char *argv[])
 				continue;
 		}
 		if ((cents - 5) >= 0)
-                {
-                        cents -= 5;
-                                continue;
-                }
+	{
+	cents -= 5;
+	continue;
+	}
 		if ((cents - 2) >= 0)
-                {
-                        cents -= 2;
-                                continue;
-                }
+	{
+	cents -= 2;
+	continue;
+	}
 		cents--;
 	}
 	printf("%d\n", coins);
