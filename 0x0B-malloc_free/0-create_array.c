@@ -4,7 +4,7 @@
  *create_array - entry
  *@size: size
  *@c: cha
- *return: NUll
+ *Return: NUll
  */
 char *create_array(unsigned int size, char c)
 {
