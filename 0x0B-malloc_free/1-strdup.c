@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  *_strdup - entry
- *str: cha
+ *@str: cha
  *Return: NUll
  */
 char *_strdup(char *str)
@@ -17,7 +17,7 @@ char *_strdup(char *str)
 
 	while (str[i] != '\0')
 
-	 i++;
+	i++;
 	x = malloc(sizeof(char) * (i + 1));
 	if (x == NULL)
 	return (NULL);
