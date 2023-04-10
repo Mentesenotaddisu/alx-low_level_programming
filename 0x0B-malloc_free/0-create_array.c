@@ -4,12 +4,12 @@
  *create_array - entry
  *@size: size
  *@c: cha
- *return: NUll 
+ *return: NUll
  */
 char *create_array(unsigned int size, char c)
 {
 	char *str;
-	unsigned int i ;
+	unsigned int i;
 
 	str = malloc(sizeof(char) * size);
 
