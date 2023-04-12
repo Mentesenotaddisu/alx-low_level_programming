@@ -11,43 +11,33 @@
  */
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
+	char *nptr;
 	unsigned int i;
 
-	i = 0;
-	while (i < size)
+	if (new_size == old_size)
+	return (ptr);
+	if (ptr == NULL)
 	{
-	if (i % 10)
+	nptr = malloc(new_size);
+	if (nptr == NULL)
+	return (NULL);
+	return (nptr);
+	}
+	else
 	{
-	printf(" ");
-	}
-	if (!(i % 10) && i)
+	if (new_size ()
 	{
-	printf("\n");
+	free (ptr);
+	return (NULL);
 	}
-	printf("0x%02x", buffer[i]);
-	i++;
 	}
-	printf("\n");
-}
-/**
-* main - check the code for
-*
-*Return: Always 0.
-*/
-int main(void)
-{
-	char *p;
-	int i;
-
-	p = malloc(sizeof(char) * 10);
-	p = _realloc(p, sizeof(char) * 10, sizeof(char) * 98);
-	i = 0; 
-
-	while (i < 98)
+	nptr = malloc (new_size);
+	if (nptr == NULL)
+	return (NULL);
+	for (i = 0; i < old_size && i < new_size; i++)
 	{
-	p[i++] = 98;
+	nptr[i] = ((char *) ptr) [i];
 	}
-	simple_print_buffer(p, 98);
-	free(p);
-	return (0);
+	free(ptr);
+	return (nptr);
 }
