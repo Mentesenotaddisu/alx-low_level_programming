@@ -10,6 +10,7 @@
 
 int main()
 {
-	_putchar("%s\n" ,SIZE);
+
+	_putchar("%d\n" ,SIZE);
 	return (0);
 }
