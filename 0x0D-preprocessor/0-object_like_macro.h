@@ -1,16 +1,6 @@
-#include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
-/**
- *
- *
- */
+#ifndef HEADER_FILE
+#define HEADER_FILE
+
 #define SIZE 1024
 
-int main()
-{
-	int x = SIZE;
-
-	_putchar("%d\n" ,x);
-	return (0);
-}
+#endif
