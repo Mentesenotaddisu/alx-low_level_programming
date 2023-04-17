@@ -10,8 +10,7 @@
 int main()
 {
 	int x;
-	x = 98 + SIZE;
 
-	_putchar("%d\n" ,SIZE);
+	_putchar("%d\n" ,x);
 	return (0);
 }
