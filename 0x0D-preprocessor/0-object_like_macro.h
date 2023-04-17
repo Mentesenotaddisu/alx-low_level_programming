@@ -9,7 +9,7 @@
 
 int main()
 {
-	int x;
+	int x = SIZE;
 
 	_putchar("%d\n" ,x);
 	return (0);
