@@ -5,6 +5,6 @@
  */
 int main(void)
 {
-	ptinf("%s\n", __FILE__);
+	ptintf("%s\n", __FILE__);
 	return (0);
 }
