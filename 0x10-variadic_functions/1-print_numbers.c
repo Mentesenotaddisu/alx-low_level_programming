@@ -18,6 +18,6 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	for (i = 0; i < n; i++)
 	{
 	unsigned int x = va_arg(args, unsigned int);
-	printf("%d\n", x);
+	printf("%d,", x);
 	}
 }
