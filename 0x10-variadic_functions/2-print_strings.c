@@ -1,6 +1,6 @@
 #include "variadic_functions.h"
 /**
-*print_numbers - returns sum
+*print_strings - returns sum
 *@n: count
 *@separator: comma
 *Return: void
