@@ -3,6 +3,7 @@
  * listint_t - entry
  * @head: new node
  * @n: int
+ * @add_nodeint: ..
  * Return: null or adress
  */
 listint_t *add_nodeint(listint_t **head, const int n)
